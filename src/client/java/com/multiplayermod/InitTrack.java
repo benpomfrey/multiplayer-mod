@@ -1,4 +1,4 @@
-package com.example;
+package com.multiplayermod;
 
 import net.fabricmc.api.ClientModInitializer;
 

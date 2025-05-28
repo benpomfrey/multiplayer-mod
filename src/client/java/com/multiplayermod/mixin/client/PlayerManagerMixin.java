@@ -1,6 +1,6 @@
-package com.example.mixin.client;
+package com.multiplayermod.mixin.client;
 
-import com.example.InviteManager;
+import com.multiplayermod.InviteManager;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.PlayerManager;
 import net.minecraft.text.Text;

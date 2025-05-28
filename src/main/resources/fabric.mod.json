@@ -16,16 +16,16 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.OpenInit"
+			"com.multiplayermod.OpenInit"
 		],
 		"client": [
-			"com.example.InitTrack"
+			"com.multiplayermod.InitTrack"
 		]
 	},
 	"mixins": [
 		"multiplayermod.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "multiplayermod.client.mixins.json",
 			"environment": "client"
 		}
 	],

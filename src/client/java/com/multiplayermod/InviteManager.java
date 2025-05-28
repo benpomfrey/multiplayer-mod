@@ -1,4 +1,4 @@
-package com.example;
+package com.multiplayermod;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package com.example;
+package com.multiplayermod;
 
 import java.io.IOException;
 import java.nio.file.Files;

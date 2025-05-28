@@ -1,4 +1,4 @@
-package com.example.mixin.client;
+package com.multiplayermod.mixin.client;
 
 import java.net.NetworkInterface;
 import java.net.InetAddress;
