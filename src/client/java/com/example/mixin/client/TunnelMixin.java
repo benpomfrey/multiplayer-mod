@@ -32,7 +32,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 @Mixin(IntegratedServer.class)
-public class ExampleClientMixin {
+public class TunnelMixin {
 	private static final Set<String> invitedPlayers = new HashSet<>();
 
 	private Socket tunnelSocket = null;
