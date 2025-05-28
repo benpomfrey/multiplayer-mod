@@ -1,4 +1,4 @@
-package com.example.mixin.client;
+package com.example;
 
 import java.util.HashSet;
 import java.util.Set;

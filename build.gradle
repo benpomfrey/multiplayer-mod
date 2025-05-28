@@ -22,7 +22,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"modid" {
+		"multiplayermod" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}
@@ -61,6 +61,9 @@ java {
 
 	sourceCompatibility = JavaVersion.VERSION_21
 	targetCompatibility = JavaVersion.VERSION_21
+}
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 21
 }
 
 jar {

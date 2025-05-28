@@ -1,18 +1,18 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "multiplayermod",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Multiplayer Mod",
+	"description": "A simple reverse proxy mod that allows LAN servers to be joined over WAN",
 	"authors": [
-		"Me!"
+		"bebguin"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/multiplayermod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -23,7 +23,7 @@
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"multiplayermod.mixins.json",
 		{
 			"config": "modid.client.mixins.json",
 			"environment": "client"
